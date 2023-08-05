@@ -1,0 +1,28 @@
+.result {
+  background-color: var(--secondary-bg-color);
+  text-align: center;
+
+  button {
+    font-weight: bold;
+    border-radius: 20px;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: var(--accent-color);
+    color: var(--secondary-text-color);
+    margin-top: 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e70000;
+    }
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100px;
+  }
+}

@@ -1,0 +1,14 @@
+.progress {
+  height: 10px;
+  border-radius: 30px;
+  background-color: var(--border-color);
+  margin-top: 30px;
+
+  &-inner {
+    height: 100%;
+    border-radius: 30px;
+    width: 80%;
+    background: var(--accent-color);
+    transition: all 0.3s ease-in-out;
+  }
+}
